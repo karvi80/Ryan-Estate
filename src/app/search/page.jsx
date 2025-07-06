@@ -5,15 +5,15 @@ import { useSearchParams } from "next/navigation"
 import Link from "next/link";
 import Image from "next/image";
 
-import getProperties from "lib/properties";
+import getProperties from "../../../lib/properties";
 
-import PropertyCard from "@/component/propertyCard/PropertyCard";
-import Hero from "@/component/hero/Hero";
-import Qr from "@/component/qr/Qr";
-import Openhouse from "@/component/openhouse/Openhouse";
-import Locations from "@/component/locations/Locations";
-import Slogan from "@/component/slogan/Slogan";
-import Loader from "@/component/loader/Loader";
+import PropertyCard from "../../component/propertyCard/PropertyCard";
+import Hero from "../../component/hero/Hero";
+import Qr from "../../component/qr/Qr";
+import Openhouse from "../../component/openhouse/Openhouse";
+import Locations from "../../component/locations/Locations";
+import Slogan from "../../component/slogan/Slogan";
+import Loader from "../../component/loader/Loader";
 
 import "./search.css";
 

@@ -3,9 +3,7 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  experimental: {
-    appDir: true,
-  },
+ 
   images: {
     domains: ["ap.rdcpix.com", "p.rdcpix.com", "nh.rdcpix.com"],
   },
