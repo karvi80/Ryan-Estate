@@ -1,0 +1,20 @@
+.qr-section {
+    max-width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.qr-section-text {
+    max-width: 500px;
+}
+.qr-section-text h1 {
+    color: var(--primary);
+}
+
+.qr-section-text h4 {
+    color: var(--terniry);
+}

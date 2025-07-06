@@ -1,0 +1,69 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start; 
+}
+
+.logo-img {
+  margin: 0;
+}
+
+.logo h1 {
+  color: var(--primary);
+  font-weight: 700;
+  font-size: 36px;
+  margin: 0;
+}
+
+.login-singup {
+  flex: 0.15;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login {
+  background: var(--secondary);
+  border: 1px solid var(--primary);
+  padding: 10px;
+  width: 80px;
+  border-radius: 10px;
+  color: var(--primary);
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.singup {
+  background: var(--primary);
+  border: none;
+  width: 80px;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 10px;
+  color: #fff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.login:hover {
+  opacity: 1;
+  scale: 1.1;
+}
+
+.singup:hover {
+  opacity: 1;
+  scale: 1.1;
+}
+
+@media screen and (max-width: 750px) {
+  .navbar-container h1 {
+    display: none;
+  }
+}

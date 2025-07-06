@@ -1,0 +1,38 @@
+.hero-section {
+    max-width: 100%;
+    margin: 2.5rem auto;
+    padding: 1.5rem;
+    gap: 1rem;
+    background-color: var(--secondary);
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hero-card {
+    width: 320px;
+    height: 420px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem;
+    color: var(--primary);
+    text-align: center;
+}
+
+.hero-card-button {
+    width: 50%;
+    padding: 1rem;
+    background-color:  var(--primary);
+    color: #fff;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}

@@ -1,0 +1,48 @@
+.miniSearchbar {
+    max-width: 350px;
+    height: 40px;
+}
+
+.miniSearchbar-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border: 1px solid var(--primary);
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    background-color: var(--secondary)
+}
+
+.miniSearchbar-form input {
+    background: transparent;
+    height: 100%;
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 1;
+}
+
+.search-input-btn {
+  background: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  line-height: 1;
+  transition: all 0.3s ease;
+
+}
+
+@media screen and (max-width: 600px) {
+  .miniSearchbar-form {
+    display: none;
+  }
+}
