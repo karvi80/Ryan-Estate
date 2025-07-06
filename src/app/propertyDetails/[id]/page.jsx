@@ -5,17 +5,15 @@ import { useParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 
-import axios from "axios";
 
-import { ImagesModal } from "@/component";
-import PropertyCard from "@/component/propertyCard/PropertyCard";
-import Loader from "@/component/loader/Loader"
+import  ImagesModal  from "../../../component/imagesModal/imagesModal";
+import PropertyCard from "../../../component/propertyCard/PropertyCard";
+import Loader from "../../../component/loader/Loader"
 
-import millify from "millify";
 
 import "../propertyDetails.css";
-import getProperty from "lib/property";
-import getSimilarHomes from "lib/similarHomes";
+import getProperty from "../../../../lib/property.js";
+import getSimilarHomes from "../../../../lib/similarHomes";
 
 
 const PropertyDetails = () => {
