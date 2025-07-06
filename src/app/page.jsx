@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 import styles from "./page.module.css";
-import { Navbar, Search } from "../component";
-import Footer from "@/component/footer/Footer";
+import { Navbar, Search, Footer } from "../component";
+
 
 
 const Home = () => {

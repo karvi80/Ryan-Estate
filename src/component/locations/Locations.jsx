@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { locations } from "constant";
+import { locations } from "../../../constant";
 import "./locations.css"
 
 const Locations = () => {
