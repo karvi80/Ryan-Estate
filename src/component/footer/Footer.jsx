@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { footers } from "constant";
+import { footers } from "../../../constant";
 import "./footer.css"
 
 const Footer = () => {
