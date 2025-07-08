@@ -8,7 +8,7 @@ const Slogan = () => {
   <div className="slogan-section">
     <div >
         <Image 
-        src="/assets/blue-print.jpg" alt="blue print" 
+        src="/assets/Blue-print.jpg" alt="blue print" 
         width={450} height={350}
         className="slogan-img"
          />

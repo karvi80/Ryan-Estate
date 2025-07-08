@@ -46,7 +46,7 @@ export const heros = [
         title: "Sell",
         desc: "We know how to price, market, and sell your home for top dollar. And we do it all for half the listing fee others often charge.",
         link: "Learn more",
-        img: "/assets/sell.png"
+        img: "/assets/Sell.png"
     },
 
     { 
