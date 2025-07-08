@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import { Navbar, Footer } from "../component";
-import SearchClient from "../component/searchClient/SearchClient"
-import { Suspense } from "react"
+import SearchClient from "../app/search/page"
 
 
 
