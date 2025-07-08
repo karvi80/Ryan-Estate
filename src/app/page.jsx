@@ -1,6 +1,7 @@
 import styles from "./page.module.css";
 import { Navbar, Footer } from "../component";
-import Search from "../app/search/page"
+import SearchClient from "../component/searchClient/SearchClient"
+import { Suspense } from "react"
 
 
 
@@ -9,7 +10,7 @@ const Home = () => {
     <main className={styles.main}>
       <div className={styles.description}>
         <Navbar />
-        <Search />
+        <SearchClient />
         <Footer />
       </div>
     </main>
