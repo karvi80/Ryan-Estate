@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import "./imagesModal.css"
+import "./ImagesModal.css"
 
 
 const ImagesModal = ({ data }) => {

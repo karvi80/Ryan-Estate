@@ -10,10 +10,10 @@ import  ImagesModal  from "../../../component/imagesModal/imagesModal";
 import PropertyCard from "../../../component/propertyCard/PropertyCard";
 import Loader from "../../../component/loader/Loader"
 
-
-import "../propertyDetails.css";
 import getProperty from "../../../../lib/property.js";
 import getSimilarHomes from "../../../../lib/similarHomes";
+
+import "../propertyDetails.css";
 
 
 const PropertyDetails = () => {

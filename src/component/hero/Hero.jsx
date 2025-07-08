@@ -1,6 +1,6 @@
 import React from "react";
 import HeroCard from "./HeroCard";
-import { heros } from "constant";
+import { heros } from "../../../constant";
 import "./hero.css"
 
 const Hero = () => {
