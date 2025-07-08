@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
-import { Navbar, Search, Footer } from "../component";
+import { Navbar, Footer } from "../component";
+import Search from "../app/search/page"
 
 
 
